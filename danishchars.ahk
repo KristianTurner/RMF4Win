@@ -9,3 +9,7 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 !+a:: send {U+00C5}
 !+o:: send {U+00D8}
 !+`;:: send {U+00C6}
+
+!+^x::
+ExitApp
+Return
